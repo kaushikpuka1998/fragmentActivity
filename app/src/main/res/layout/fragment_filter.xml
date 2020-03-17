@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FilterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:fontFamily="@font/ncomicrelief"
+        android:text="Filter Fragment"
+        android:textColor="@color/Yellow" />
+
+    <TextView
+        android:id="@+id/sortby"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/ncomicrelief"
+        android:text="Sort By"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/filterby"
+        android:layout_width="200dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="207dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/ncomicrelief"
+        android:text="Filter By"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:clickable="true"/>
+
+    <FrameLayout
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="56dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mainframe2">
+
+    </FrameLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".filtertFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/ncomicrelief"
+        android:text="Filter Catagory"
+        android:textColor="@color/colorAccent"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/ncomicrelief"
+        android:text="Filter Catagory"
+        android:textColor="@color/colorAccent"
+        android:textSize="24dp" />
+    <Button
+        android:id="@+id/filter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="220dp"
+        android:text="Filter"
+        android:visibility="invisible"
+        android:fontFamily="@font/ncomicrelief"
+        android:textAllCaps="false"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="110dp"
+        android:entries="@array/Sorting" />
+
+    <TextView
+        android:id="@+id/startDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Date"
+        android:clickable="true"
+        android:layout_marginLeft="75dp"
+        android:textSize="24dp"
+        android:layout_marginTop="180dp"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/Enddate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Date"
+        android:clickable="true"
+        android:textSize="24dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="180dp"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="->"
+        android:textSize="24dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="180dp"
+        android:visibility="invisible"/>
+
+    <RadioGroup
+        android:id="@+id/rbg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="180dp"
+        android:visibility="invisible">
+
+        <RadioButton
+            android:id="@+id/op1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ncomicrelief"
+            android:text="Price Rs.0- Rs. 30000" />
+
+        <RadioButton
+            android:id="@+id/op2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ncomicrelief"
+            android:text="Price Rs.30001- Rs. 60000" />
+
+        <RadioButton
+            android:id="@+id/op3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price Rs.60001- Rs. 100000"
+            android:fontFamily="@font/ncomicrelief"/>
+
+        <Button
+            android:id="@+id/filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:text="Filter"
+            android:fontFamily="@font/ncomicrelief"
+            android:textAllCaps="false"/>
+
+    </RadioGroup>
+
+
+
+
+</FrameLayout>

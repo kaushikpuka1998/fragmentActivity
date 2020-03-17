@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Add"
+        android:id="@+id/add"
+        android:icon="@drawable/add_button"
+        />
+    <item android:title="Search"
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_black_24dp"/>
+
+    <item android:title="Filter"
+        android:id="@+id/filter"
+        android:icon="@drawable/ic_invert_colors_black_24dp"/>
+</menu>
